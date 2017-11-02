@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Device Manager - Teste Pulsus - Milton Neto</title>
+	<meta name="author" content="Milton Neto" />
+	<meta name="description" content="Teste de UX de Milton Neto - Pulsus[MDM Soluções]" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/materialize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+	<div class="topbar">
+		<div class="row">
+			<div class="col m12">
+				<div class="row">
+					<h1 class="col m2 main-logo">
+						<img src="img/main-logo.svg" alt="Device Manager" class="responsive-img">
+					</h1>
+					
+					<div class="col m4 offset-m5 search-field">
+						<div class="row">
+						<img src="img/magnifier.svg" class="img-responsive col m1 float-left" />
+						<input type="text" name="search" class="col m10 browser-default" placeholder="Buscar grupo ou aparelho">
+
+						<button type="button" class="col m1 search-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    	<i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>	
+					        <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <!--<div class="dropdown-menu">
+					       <form>
+							  <input type="radio" name="escolha-busca" value="grupo"><label>Grupo</label>
+							  <input type="radio" name="escolha-busca" value="aparelho"> <label>Aparelho</label>
+							</form> 	        
+					    </div>-->
+						</div>
+					</div>
+
+					<div class="col m1">
+						<button class="btn-filtros .right-align">
+							<span>Filtros</span>
+							<img src="img/btn-filter.svg" class="icon-filtros" />
+						</button> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar col m12">
+		<div class="row nav-content">
+			<ul class="tabs tabs-transparent">
+				<li class="tab">
+					<a href="#" class="nav-link active dropdown-button" data-activates='dropdown1'><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>Por aparelhos</a>
+				</li>
+				<li class="tab"><a href="#"><i class="fa fa-calendar fa-2x" aria-hidden="true"></i>Por data e hora</a></li>
+			</ul>
+		</div>	
+	</nav>
+
+	<div class="map container-fluid"></div>
+
+	<ul id="dropdown1" class="dropdown-content">
+	  <li><a href="#!">one</a></li>
+	  <li><a href="#!">two</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">three</a></li>
+	</ul>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/calls.js"></script>
+
+</html>
